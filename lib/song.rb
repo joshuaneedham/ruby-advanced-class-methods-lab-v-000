@@ -12,8 +12,7 @@ class Song
 
   def self.create
     @song = self.new
-    @@all << @song
-    puts "#{@song}"
+    @song
   end
 
 end
