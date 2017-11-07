@@ -38,5 +38,6 @@ class Song
 
   def self.alphabetical(song_name)
     self.all.sort_by { |s| s.name == song_name }
+  end
 
 end
