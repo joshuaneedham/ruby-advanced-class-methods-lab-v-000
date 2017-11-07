@@ -14,5 +14,6 @@ class Song
     @name = name
     @artist_name = artist_name
     @@all << self
+  end
 
 end
