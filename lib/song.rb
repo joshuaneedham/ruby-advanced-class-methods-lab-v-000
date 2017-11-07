@@ -18,7 +18,6 @@ class Song
 
   def self.new_by_name
     name = []
-    @@all << name
   end
 
 end
